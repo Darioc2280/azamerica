@@ -1,0 +1,220 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+
+<!-- Cabecera -->
+<section class="page-section clearfix">
+  <div class="container">
+    <div class="intro">
+      <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'core/img/intro.png' %}" alt="">
+      <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+        <h2 class="section-heading mb-4">
+          <span class="section-heading-upper">Déjate sorprender</span>
+          <span class="section-heading-lower">Te gustará</span>
+        </h2>
+        <p class="mb-3">Conoce el único IPTV GAME del mercado
+        </p>
+        <div class="intro-button mx-auto">
+          <a class="btn btn-primary btn-xl" href="{% url 'i7' %}">ver producto</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr>
+<!-- solucionar y hacerlo con el backend soulcion enmienda-->
+
+
+
+{% load static %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="{% static "core/img/products/1.png" %}"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="{% url 'services' %}" class="title" data-abc="true">AZ-America S-1007 NEW</a> </div>
+
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="{% url 'services' %}" class="btn btn-primary float-right" data-abc="true"> Ver producto</a>
+
+                </div>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="{% static "core/img/products/2.png" %}"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="{% url 'services' %}" class="title" data-abc="true">AZ-America BEATS</a> </div>
+
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="{% url 'services' %}" class="btn btn-primary float-right" data-abc="true"> Ver producto </a>
+
+                </div>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="{% static "core/img/products/3.png" %}"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="{% url 'services' %}" class="title" data-abc="true">AZ-America SILVER Plus</a> </div>
+
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="{% url 'services' %}" class="btn btn-primary float-right" data-abc="true"> Ver producto </a>
+
+                </div>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="{% static "core/img/products/4.png" %}"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="{% url 'services' %}" class="title" data-abc="true">AZ-America GOLD</a> </div>
+
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="{% url 'services' %}" class="btn btn-primary float-right" data-abc="true"> Ver producto </a>
+
+                </div>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="{% static "core/img/products/5.png" %}"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="{% url 'services' %}" class="title" data-abc="true">AZ-America ST3</a> </div>
+
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="{% url 'services' %}" class="btn btn-primary float-right" data-abc="true"> Ver producto </a>
+
+                </div>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="{% static "core/img/products/6.png" %}"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="{% url 'services' %}" class="title" data-abc="true">AZ-America S2015</a> </div>
+
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="{% url 'services' %}" class="btn btn-primary float-right" data-abc="true"> Ver producto </a>
+
+                </div>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="{% static "core/img/products/7.png" %}"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="{% url 'services' %}" class="title" data-abc="true">AZ-America King</a> </div>
+
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="{% url 'services' %}" class="btn btn-primary float-right" data-abc="true"> Ver producto </a>
+
+                </div>
+            </figure>
+        </div>
+         <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="{% static "core/img/products/8.png" %}"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="{% url 'services' %}" class="title" data-abc="true">AZ-America CHAMPIONS</a> </div>
+
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="{% url 'services' %}" class="btn btn-primary float-right" data-abc="true"> Ver producto </a>
+
+                </div>
+            </figure>
+        </div>
+         <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="{% static "core/img/products/9.png" %}"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="{% url 'services' %}" class="title" data-abc="true">AZ-America SILVER</a> </div>
+
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="{% url 'services' %}" class="btn btn-primary float-right" data-abc="true"> Ver producto </a>
+
+                </div>
+            </figure>
+        </div>
+         <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="{% static "core/img/products/10.png" %}"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="{% url 'services' %}" class="title" data-abc="true">AZ-America CHAMPIONS</a> </div>
+
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="{% url 'services' %}" class="btn btn-primary float-right" data-abc="true"> Ver producto </a>
+
+                </div>
+            </figure>
+        </div>
+         <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="{% static "core/img/products/11.png" %}"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="{% url 'services' %}" class="title" data-abc="true">AZ-America King</a> </div>
+
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="{% url 'services' %}" class="btn btn-primary float-right" data-abc="true"> Ver producto </a>
+
+                </div>
+            </figure>
+        </div>
+    </div>
+</div>
+
+
+<!-- mision hacerlos editables no olvidar!-->
+<section class="page-section cta">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <div class="cta-inner text-center rounded">
+          <h2 class="section-heading mb-4">
+
+             <span class="section-heading-lower">MISSÃO</span>
+
+          </h2>
+          <p class="mb-0">
+Desenvolver novos equipamentos de telecomunicação, com ênfase na recepção de Imagens, visando sempre a mais alta definição e estabilidade de sinal, imagem e som, acompanhando sempre as novas tendências do mercado. Tendo sempre como meta a satisfação do cliente.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- vision -->
+<section class="page-section cta">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <div class="cta-inner text-center rounded">
+          <h2 class="section-heading mb-4">
+
+            <span class="section-heading-lower">VISÃO</span>
+          </h2>
+          <p class="mb-0">
+Sempre focada na pesquisa e desenvolvimento, a AZ-América mantém seus pés fixos na realidade atual, e seus olhos focados no futuro, acompanhando as novas tecnologias e superando a cada dia novos desafios, garantindo a excelência em qualidade de produto e satisfação absoluta de seus usuários.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

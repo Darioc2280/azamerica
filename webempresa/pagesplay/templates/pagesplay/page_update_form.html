@@ -1,0 +1,32 @@
+{% extends 'playground/base.html' %}
+{% load static %}
+{% block title %}Actualizar página{% endblock %}
+{% block content %}
+{% include 'pagesplay/includes/pages_menu.html'%}
+<main role="main">
+  <div class="container">
+    <div class="row mt-3">
+      <div class="col-md-9 mx-auto">
+        <div>
+            {% if 'ok' in request.GET %}
+            <p style="color:green;">
+                Se actualizo correctamente los cambios
+                <a href="{% url 'pagesplay:pageplay' page.id page.title|slugify %}">ver edicion</a>
+            </p>
+            {% endif %}
+             <form action="" method="post" enctype="multipart/form-data">{% csrf_token %}
+                <table>
+                    {{ form.as_p }}
+                    <div class="textcenter">
+                        <input class="btn btn-primary btn-block" type="submit" value="Actualizar" />
+                    </div>
+                </table>
+                <br>
+
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+{% endblock %}
